@@ -18,11 +18,11 @@ def generate_customer_message(order_id, customer_name, origin, destination, caus
     The message should be empathetic, clear, and include a closing thanking the customer for their patience.
     """
     try:
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
             model="gpt-4",
             messages=[{"role": "user", "content": prompt}]
         )
-        return response["choices"][0]["message"]["content"].strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
         return f"Error generating message: {e}"
 
