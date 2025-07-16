@@ -23,6 +23,7 @@ def get_response(user_query, chat_history):
     generates travel recommendations to any city in the world.
     You MUST ask for cause of deviation, new planned route and the new estimated time of arrival.
     You MUST continue the conversation with alternative questions like what the user would try to speed up the travel.
+    You MUST to respond as creating a transport report.
     Answer the following questions considering the history of the conversation:
 
     Chat history: {chat_history}
