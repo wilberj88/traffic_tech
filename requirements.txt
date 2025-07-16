@@ -1,2 +1,11 @@
 streamlit
-openai==0.28
+googlemaps
+gmaps
+openai
+langchain
+chromadb==0.4.22
+beautifulsoup4
+langchain_community
+langchain_core
+langchain_openai
+replicate
