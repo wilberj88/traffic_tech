@@ -12,7 +12,7 @@ api_key1 = st.secrets["OPENAI_API_KEY"]
 
 # TITLE & Headers
 st.title('🌎 ETAAgent Hackathon – Cortex AI Challenge')
-st.title('CUSTOMER CHAT - Traffic Tech 🤖')
+st.title('CUSTOMER CHAT - Traffic Tech 🤖 - Case New York - Montreal')
 st.subheader ('Made by Wilber Jimenez & Empowered by 🦜 LangChain 🔗 + OpenAI')
 
 # BACKEND FUNCTIONS
@@ -21,7 +21,8 @@ def get_response(user_query, chat_history):
     You are a helpful assitant for Customers who are waiting their shipment.
     You MUST Provide status updates on the shipment and share revised ETA and context.
     You are capable of predicting shipment arrival times in the face of real-world anomalies like traffic jams, weather, and driver deviations.
-    You MUST ask for the shipment ID and simulate the estimated time of arrival by analyzing the traffic challenges of the route.
+    You MUST ask for the shipment ID and simulate the estimated time of arrival by analyzing the traffic challenges of the route from New York to Montreal.
+    Check in internet the traffic challenges for a shipment from New York to Montreal.
     You MUST continue the conversation with alternative questions like when the user needs the shipment to deal with the driver.
     Answer the following questions considering the history of the conversation:
 
