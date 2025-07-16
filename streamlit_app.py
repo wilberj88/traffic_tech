@@ -12,7 +12,7 @@ api_key1 = st.secrets["OPENAI_API_KEY"]
 
 # TITLE & Headers
 st.title('🌎 ETAAgent Hackathon – Cortex AI Challenge')
-st.title('Traffic Tech 🤖')
+st.title('DRIVER CHAT - Traffic Tech 🤖')
 st.subheader ('Made by Wilber Jimenez & Empowered by 🦜 LangChain 🔗 + OpenAI')
 
 # BACKEND FUNCTIONS
